@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import SearchBox from './searchbox';
+import MovieCard from './moviecardlist';
+import { movies } from './movies';
+
+class App extends Component {
+    constructor() {
+        super();
+        this.state = { 
+            searchValue: '',
+            movies: movies
+            };
+    }
+
+    searchChange = (e) => {
+        this.setState({ searchValue: e.target.value });
+    }
+
+    render() {
+
+        const filted_movies = this.state.movies.filter(movie => {
+            return movie.name.toLowerCase().includes(this.state.searchValue.toLowerCase());
+        });
+
+        console.log(this.state.searchValue); // for testing purposes
+        console.log(filted_movies); // for testing
+
+        return (
+            <div className='tc'>
+                <h1 className='tc bg-black white sticky-top'>Blockbuster Movies</h1>
+                <SearchBox onSearchChange={this.searchChange} />
+                <MovieCard movies={filted_movies} />
+            </div>
+        );
+    }
 }
-
 export default App;
