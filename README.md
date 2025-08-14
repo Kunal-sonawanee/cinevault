@@ -60,7 +60,7 @@ A modern, feature-rich movie discovery application built with React.js that prov
 
 ## 🚀 Live Demo
 
-Visit the live application: [CineVault Live](https://kunal-sonawanee.github.io/cinevault)
+Visit the live application: [CineVault Live](https://cinevaultt.netlify.app/)
 
 ## 📱 Screenshots
 
