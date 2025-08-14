@@ -62,17 +62,6 @@ A modern, feature-rich movie discovery application built with React.js that prov
 
 Visit the live application: [CineVault Live](https://cinevaultt.netlify.app/)
 
-## 📱 Screenshots
-
-### Desktop View
-![Desktop View](https://via.placeholder.com/800x600/667eea/white?text=CineVault+Desktop+View)
-
-### Mobile View
-![Mobile View](https://via.placeholder.com/400x800/764ba2/white?text=CineVault+Mobile+View)
-
-### Dark Mode
-![Dark Mode](https://via.placeholder.com/800x600/0f0f23/white?text=CineVault+Dark+Mode)
-
 ## 🛠️ Technologies Used
 
 - **Frontend**: React.js (Class Components)
