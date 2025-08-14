@@ -1,16 +1,31 @@
 import React from "react";
 import Movie from './moviecard';
+import './moviecardlist.css';
 
-const MovieCard = ({movies}) => {
-    const cardComponet = movies.map((movie, index) => {
+const MovieCard = ({ movies, onMovieClick, favorites, onToggleFavorite }) => {
+    if (movies.length === 0) {
         return (
-            <Movie key={index} name={movie.name} url={movie.bannerUrl} genre = {movie.genre} />
+            <div className="no-movies">
+                <div className="no-movies-icon">🎬</div>
+                <h3>No movies found</h3>
+                <p>Try adjusting your search or filters</p>
+            </div>
         );
-    });
+    }
 
     return (
-        <div>{cardComponet}</div>
-    )
-}
+        <div className="movies-grid">
+            {movies.map((movie) => (
+                <Movie 
+                    key={movie.id} 
+                    movie={movie}
+                    onMovieClick={onMovieClick}
+                    isFavorite={favorites.includes(movie.id)}
+                    onToggleFavorite={onToggleFavorite}
+                />
+            ))}
+        </div>
+    );
+};
 
 export default MovieCard;

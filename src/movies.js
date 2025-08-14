@@ -2,211 +2,141 @@ export const movies = [
   {
     id: 1,
     name: 'Dangal',
-    genre: 'Biographical Sports Drama (Indian)',
+    genre: 'Biographical Sports Drama',
+    country: 'India',
     releaseYear: 2016,
-    bannerUrl: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQMCj20Dhxm40PDsgiS1lMZaNj8lepMfMv9zn3LsbwLWu2ovzUk'
+    rating: 8.4,
+    duration: '161 min',
+    director: 'Nitesh Tiwari',
+    cast: ['Aamir Khan', 'Fatima Sana Shaikh', 'Sanya Malhotra'],
+    description: 'Former wrestler Mahavir Singh Phogat and his two wrestler daughters struggle towards glory at the Commonwealth Games in the face of societal oppression.',
+    bannerUrl: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQMCj20Dhxm40PDsgiS1lMZaNj8lepMfMv9zn3LsbwLWu2ovzUk',
+    trailerUrl: 'https://www.youtube.com/watch?v=x_7YlGv9u1g'
   },
   {
     id: 2,
-    name: 'Baahubali 2',
-    genre: 'Epic Action (Indian)',
+    name: 'Baahubali 2: The Conclusion',
+    genre: 'Epic Action',
+    country: 'India',
     releaseYear: 2017,
-    bannerUrl: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTnMA16Y55ki6WxoLTdTmxNnKwYCZiNwi0DvCakttCRBQgZyJpJ'
+    rating: 8.2,
+    duration: '167 min',
+    director: 'S.S. Rajamouli',
+    cast: ['Prabhas', 'Rana Daggubati', 'Anushka Shetty'],
+    description: 'When Shiva, the son of Bahubali, learns about his heritage, he begins to look for answers. His story is juxtaposed with past events that unfolded in the Mahishmati Kingdom.',
+    bannerUrl: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTnMA16Y55ki6WxoLTdTmxNnKwYCZiNwi0DvCakttCRBQgZyJpJ',
+    trailerUrl: 'https://www.youtube.com/watch?v=G62HrubdD6o'
   },
   {
     id: 3,
     name: 'RRR',
-    genre: 'Action Drama (Indian)',
+    genre: 'Action Drama',
+    country: 'India',
     releaseYear: 2022,
-    bannerUrl: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRx0wTDoneV8OuMM6hNfD7vfibB_jt6FcCL-u8H2DljlRXgGCoG'
+    rating: 7.9,
+    duration: '187 min',
+    director: 'S.S. Rajamouli',
+    cast: ['N.T. Rama Rao Jr.', 'Ram Charan', 'Alia Bhatt'],
+    description: 'A fictitious story about two legendary revolutionaries and their journey away from home before they started fighting for their country in 1920s.',
+    bannerUrl: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRx0wTDoneV8OuMM6hNfD7vfibB_jt6FcCL-u8H2DljlRXgGCoG',
+    trailerUrl: 'https://www.youtube.com/watch?v=f_vbAtFSEc0'
   },
   {
     id: 4,
-    name: 'K.G.F.: Chapter 2',
-    genre: 'Action Thriller (Indian)',
+    name: 'K.G.F: Chapter 2',
+    genre: 'Action Thriller',
+    country: 'India',
     releaseYear: 2022,
-    bannerUrl: 'https://m.media-amazon.com/images/M/MV5BZmQzZjVkZTUtYjI4ZC00ZDJmLWI0ZDUtZTFmMGM1Mzc5ZjIyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
+    rating: 8.3,
+    duration: '168 min',
+    director: 'Prashanth Neel',
+    cast: ['Yash', 'Sanjay Dutt', 'Raveena Tandon'],
+    description: 'The blood-soaked land of Kolar Gold Fields (KGF) has a new overlord now - Rocky, whose name strikes fear in the heart of his foes.',
+    bannerUrl: 'https://m.media-amazon.com/images/M/MV5BZmQzZjVkZTUtYjI4ZC00ZDJmLWI0ZDUtZTFmMGM1Mzc5ZjIyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    trailerUrl: 'https://www.youtube.com/watch?v=JKa05nyUmuQ'
   },
   {
     id: 5,
     name: 'Jawan',
-    genre: 'Action Thriller (Indian)',
+    genre: 'Action Thriller',
+    country: 'India',
     releaseYear: 2023,
-    bannerUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8fxJgOk6Q4UGjmsa1q3CQ1Q05Lt0Dn1leAl6_KexCEjqJAe6'
+    rating: 7.1,
+    duration: '169 min',
+    director: 'Atlee',
+    cast: ['Shah Rukh Khan', 'Nayanthara', 'Vijay Sethupathi'],
+    description: 'A high-octane action thriller which outlines the emotional journey of a man who is set to rectify the wrongs in the society.',
+    bannerUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8fxJgOk6Q4UGjmsa1q3CQ1Q05Lt0Dn1leAl6_KexCEjqJAe6',
+    trailerUrl: 'https://www.youtube.com/watch?v=MWOlnZSnXJo'
   },
   {
     id: 6,
     name: 'Pathaan',
-    genre: 'Action Thriller (Indian)',
+    genre: 'Action Thriller',
+    country: 'India',
     releaseYear: 2023,
-    bannerUrl: 'https://m.media-amazon.com/images/M/MV5BNDdkNTY1MDQtY2I5MC00OTFlLTg5OWQtZWE2YzE5NWFiMDgzXkEyXkFqcGc@._V1_.jpg'
+    rating: 6.1,
+    duration: '146 min',
+    director: 'Siddharth Anand',
+    cast: ['Shah Rukh Khan', 'Deepika Padukone', 'John Abraham'],
+    description: 'An exiled RAW agent partners with a Pakistani agent to take down a shared enemy.',
+    bannerUrl: 'https://m.media-amazon.com/images/M/MV5BNDdkNTY1MDQtY2I5MC00OTFlLTg5OWQtZWE2YzE5NWFiMDgzXkEyXkFqcGc@._V1_.jpg',
+    trailerUrl: 'https://www.youtube.com/watch?v=vqu4z34wENw'
   },
   {
     id: 7,
-    name: 'Bajrangi Bhaijaan',
-    genre: 'Drama (Indian)',
-    releaseYear: 2015,
-    bannerUrl: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQRGNMHX7ZlA7yp_XDkjD1iBMeFJnSkBM3PKju8auM_SpKFP4Dm'
+    name: '3 Idiots',
+    genre: 'Comedy Drama',
+    country: 'India',
+    releaseYear: 2009,
+    rating: 8.4,
+    duration: '170 min',
+    director: 'Rajkumar Hirani',
+    cast: ['Aamir Khan', 'R. Madhavan', 'Sharman Joshi'],
+    description: 'Two friends are searching for their long lost companion. They revisit their college days and recall the memories of their friend who inspired them.',
+    bannerUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/d/df/3_idiots_poster.jpg/250px-3_idiots_poster.jpg',
+    trailerUrl: 'https://www.youtube.com/watch?v=K0eDlFX9GMc'
   },
   {
     id: 8,
-    name: '3 Idiots',
-    genre: 'Comedy Drama (Indian)',
-    releaseYear: 2009,
-    bannerUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/d/df/3_idiots_poster.jpg/250px-3_idiots_poster.jpg'
+    name: 'Avatar: The Way of Water',
+    genre: 'Science Fiction',
+    country: 'USA',
+    releaseYear: 2022,
+    rating: 7.6,
+    duration: '192 min',
+    director: 'James Cameron',
+    cast: ['Sam Worthington', 'Zoe Saldana', 'Sigourney Weaver'],
+    description: 'Jake Sully lives with his newfound family formed on the extrasolar moon Pandora.',
+    bannerUrl: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSYWVMx6h59vKIGkku5l3hPkBbqsErDsCB7-QZ9zaKuhTN8edvL',
+    trailerUrl: 'https://www.youtube.com/watch?v=d9MyW72ELq0'
   },
   {
     id: 9,
-    name: 'PK',
-    genre: 'Satirical Comedy (Indian)',
-    releaseYear: 2014,
-    bannerUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2FV_zTaMbFBBdsf_-RfdWTf7ES38QXjIiGLbzpYNjS5GRk2Sf'
+    name: 'Avengers: Endgame',
+    genre: 'Superhero Action',
+    country: 'USA',
+    releaseYear: 2019,
+    rating: 8.4,
+    duration: '181 min',
+    director: 'Anthony Russo, Joe Russo',
+    cast: ['Robert Downey Jr.', 'Chris Evans', 'Mark Ruffalo'],
+    description: 'After the devastating events of Infinity War, the Avengers assemble once more to reverse Thanos actions and restore balance.',
+    bannerUrl: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRXef9DJnZiq5az0UnjkmvkQufOQ5MFnF7HATYRUXN913swRuH1',
+    trailerUrl: 'https://www.youtube.com/watch?v=TcMBFSGVi1c'
   },
   {
     id: 10,
-    name: 'Sholay',
-    genre: 'Action Adventure (Indian)',
-    releaseYear: 1975,
-    bannerUrl: 'https://m.media-amazon.com/images/M/MV5BOGQ2NjU0MjktMTUyYi00NjQwLTg0ZTAtNzg5NTk0YTRlMWNhXkEyXkFqcGc@._V1_.jpg'
-  },
-  {
-    id: 11,
-    name: 'Dilwale Dulhania',
-    genre: 'Romance (Indian)',
-    releaseYear: 1995,
-    bannerUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFsQa8EcnB4W2gdO0bEh5HQnu1Y4knPPWvaUdI5zUrik_R-vD5'
-  },
-  {
-    id: 12,
-    name: 'Mughal-e-Azam',
-    genre: 'Historical Drama (Indian)',
-    releaseYear: 1960,
-    bannerUrl: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRJHmocnRnc8gZ_2k9aonNFC46NaITPpQ_TfL4MWQpxO-c1CZX9'
-  },
-  {
-    id: 13,
-    name: 'Gangs of Wasseypur',
-    genre: 'Crime Drama (Indian)',
-    releaseYear: 2012,
-    bannerUrl: 'https://m.media-amazon.com/images/I/71mntzZ3s1L._UF1000,1000_QL80_.jpg'
-  },
-  {
-    id: 14,
-    name: 'Swades',
-    genre: 'Drama (Indian)',
-    releaseYear: 2004,
-    bannerUrl: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQQ7HywlOG2ct0iavUfvb0TSkvqg_pMJVcz3ZOjp68ZUMRilK-Xtx4Uwb1QRMNwEaXM5elFyDE_DQ6kE_DPo9To27ctdmCaAl4XXAt_pGA'
-  },
-  {
-    id: 15,
-    name: 'War',
-    genre: 'Action Thriller (Indian)',
-    releaseYear: 2019,
-    bannerUrl: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT2cuKvIaH5HRrPQ5nIx8lbHO7wSUf1GiXKE6mvY72J53GCRht6'
-  },
-  {
-    id: 16,
-    name: 'Animal',
-    genre: 'Action Crime (Indian)',
-    releaseYear: 2023,
-    bannerUrl: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT9zRNezyoKFad1erjGfV9ejYPQZiqpAX3e6DJyCoRc0cxoYP_8'
-  },
-  {
-    id: 17,
-    name: 'Sanju',
-    genre: 'Biographical Drama (Indian)',
-    releaseYear: 2018,
-    bannerUrl: 'https://m.media-amazon.com/images/M/MV5BMjI3NTM1NzMyNF5BMl5BanBnXkFtZTgwOTE4NTgzNTM@._V1_.jpg'
-  },
-  {
-    id: 18,
-    name: 'Chhichhore',
-    genre: 'Comedy Drama (Indian)',
-    releaseYear: 2019,
-    bannerUrl: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTR7lN6yKpdOvxKUBIdGX_HpkBFW5FDup4gzgMnumJzer8KEt9i'
-  },
-  {
-    id: 19,
-    name: 'Padmaavat',
-    genre: 'Historical Drama (Indian)',
-    releaseYear: 2018,
-    bannerUrl: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ855ggdR5SEAk6ccnU09DB97EN1APWzD7P-zETOFF7BMlJUPs3'
-  },
-  {
-    id: 20,
-    name: 'Avatar',
-    genre: 'Science Fiction (Hollywood)',
-    releaseYear: 2009,
-    bannerUrl: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSYWVMx6h59vKIGkku5l3hPkBbqsErDsCB7-QZ9zaKuhTN8edvL'
-  },
-  {
-    id: 21,
-    name: 'Avengers: Endgame',
-    genre: 'Superhero Action (Hollywood)',
-    releaseYear: 2019,
-    bannerUrl: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRXef9DJnZiq5az0UnjkmvkQufOQ5MFnF7HATYRUXN913swRuH1'
-  },
-  {
-    id: 22,
-    name: 'Titanic',
-    genre: 'Romance Drama (Hollywood)',
-    releaseYear: 1997,
-    bannerUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwQlOeIost26Qv6cAAT73c9LLi0oRcXOJ6QQ5h3J1fUogSX_sD'
-  },
-  {
-    id: 23,
-    name: 'Star Wars',
-    genre: 'Science Fiction (Hollywood)',
-    releaseYear: 2015,
-    bannerUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTITEc_k9echyKt6RJbPKiY-lS4RqCh2NWkAsrvI37wKFjG1po5'
-  },
-  {
-    id: 24,
-    name: 'Inception',
-    genre: 'Science Fiction Thriller (Hollywood)',
-    releaseYear: 2010,
-    bannerUrl: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQovCe0H45fWwAtV31ajOdXRPTxSsMQgPIQ3lcZX_mAW0jXV3kH'
-  },
-  {
-    id: 25,
     name: 'The Dark Knight',
-    genre: 'Superhero Action (Hollywood)',
+    genre: 'Superhero Action',
+    country: 'USA',
     releaseYear: 2008,
-    bannerUrl: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQkUywIUXDjHSQJIaNHYVs08osgBpF5Ot-xmB_omyEZeeRP9Xug'
-  },
-  {
-    id: 26,
-    name: 'Pulp Fiction',
-    genre: 'Crime Drama (Hollywood)',
-    releaseYear: 1994,
-    bannerUrl: 'https://m.media-amazon.com/images/I/914mMOJHWVL._UF894,1000_QL80_.jpg'
-  },
-  {
-    id: 27,
-    name: 'Shawshank Redemption',
-    genre: 'Drama (Hollywood)',
-    releaseYear: 1994,
-    bannerUrl: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRipfEoI8fb4qxidki3e_kp3fr_Kopvoi2yCKcpJGf2ngnKweMR'
-  },
-  {
-    id: 28,
-    name: 'The Godfather',
-    genre: 'Crime Drama (Hollywood)',
-    releaseYear: 1972,
-    bannerUrl: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTWmKJlXjXTiE9hkekFBy9WCRMf0eKZx2mrsgenlO-qzr9H7v0A'
-  },
-  {
-    id: 29,
-    name: 'Spider-Man',
-    genre: 'Superhero Action (Hollywood)',
-    releaseYear: 2021,
-    bannerUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtauzk4w5HwCXrx3nAm5VTFcywz62gV18C3A7KFT03SgB2k8c0'
-  },
-  {
-    id: 30,
-    name: 'Dune: Part Two',
-    genre: 'Science Fiction (Hollywood)',
-    releaseYear: 2024,
-    bannerUrl: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRBu8Gzdygf5OOqBJUIJ3-ZxiPbLh62OhvLmtOvuR7x2gF3DucU'
+    rating: 9.0,
+    duration: '152 min',
+    director: 'Christopher Nolan',
+    cast: ['Christian Bale', 'Heath Ledger', 'Aaron Eckhart'],
+    description: 'When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological tests.',
+    bannerUrl: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQkUywIUXDjHSQJIaNHYVs08osgBpF5Ot-xmB_omyEZeeRP9Xug',
+    trailerUrl: 'https://www.youtube.com/watch?v=EXeTwQWrcwY'
   }
 ];
